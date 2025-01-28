@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'monotony';
+    src: url('Monotony-Regular.ttf');
+}
+
+body {
+    font-family: 'monotony', serif;
+    background-image: url("background.jpg");
+}
+
+h1 {
+    font-size: 3.8em;
+    color: black;
+}
+
+#panel {
+    background-color: lightgray;
+    padding: 2em;
+}
+
+#selfie {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
